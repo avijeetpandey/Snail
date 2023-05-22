@@ -15,6 +15,8 @@
 		DC7C4BA12A1252DA00F991D4 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C4BA02A1252DA00F991D4 /* HTTPMethod.swift */; };
 		DC7C4BA32A1253A500F991D4 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C4BA22A1253A500F991D4 /* HTTPTask.swift */; };
 		DC7C4BA52A1253E600F991D4 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C4BA42A1253E600F991D4 /* HTTPHeaders.swift */; };
+		DCDB8CED2A1B8035001BAF56 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB8CEC2A1B8035001BAF56 /* ParameterEncoding.swift */; };
+		DCDB8CEF2A1B8136001BAF56 /* URLParamterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB8CEE2A1B8136001BAF56 /* URLParamterEncoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		DC7C4BA02A1252DA00F991D4 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		DC7C4BA22A1253A500F991D4 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
 		DC7C4BA42A1253E600F991D4 /* HTTPHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		DCDB8CEC2A1B8035001BAF56 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		DCDB8CEE2A1B8136001BAF56 /* URLParamterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParamterEncoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 		DC7C4B9D2A124C0700F991D4 /* Encoding */ = {
 			isa = PBXGroup;
 			children = (
+				DCDB8CEC2A1B8035001BAF56 /* ParameterEncoding.swift */,
+				DCDB8CEE2A1B8136001BAF56 /* URLParamterEncoder.swift */,
 			);
 			path = Encoding;
 			sourceTree = "<group>";
@@ -240,7 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDB8CED2A1B8035001BAF56 /* ParameterEncoding.swift in Sources */,
 				DC7C4BA32A1253A500F991D4 /* HTTPTask.swift in Sources */,
+				DCDB8CEF2A1B8136001BAF56 /* URLParamterEncoder.swift in Sources */,
 				DC7C4B9F2A124C3A00F991D4 /* EndPointType.swift in Sources */,
 				DC7C4BA52A1253E600F991D4 /* HTTPHeaders.swift in Sources */,
 				DC7C4B852A12471200F991D4 /* Snail.docc in Sources */,

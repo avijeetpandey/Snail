@@ -9,6 +9,3 @@ import Foundation
 
 // MARK: - HTTPHeaders
 public typealias HTTPHeaders = [String: String]
-
-// MARK: - Parameters
-public typealias Parameters = [String: Any]
