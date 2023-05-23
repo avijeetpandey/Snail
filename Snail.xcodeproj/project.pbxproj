@@ -19,6 +19,7 @@
 		DCDB8CEF2A1B8136001BAF56 /* URLParamterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB8CEE2A1B8136001BAF56 /* URLParamterEncoder.swift */; };
 		DCDB8CF22A1C9877001BAF56 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB8CF12A1C9877001BAF56 /* JSONParameterEncoder.swift */; };
 		DCDB8CF42A1C998D001BAF56 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB8CF32A1C998D001BAF56 /* NetworkRouter.swift */; };
+		DCDB8CF62A1C9A74001BAF56 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB8CF52A1C9A74001BAF56 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DCDB8CEE2A1B8136001BAF56 /* URLParamterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParamterEncoder.swift; sourceTree = "<group>"; };
 		DCDB8CF12A1C9877001BAF56 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
 		DCDB8CF32A1C998D001BAF56 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		DCDB8CF52A1C9A74001BAF56 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				DC7C4BA22A1253A500F991D4 /* HTTPTask.swift */,
 				DC7C4BA42A1253E600F991D4 /* HTTPHeaders.swift */,
 				DCDB8CF32A1C998D001BAF56 /* NetworkRouter.swift */,
+				DCDB8CF52A1C9A74001BAF56 /* Router.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				DCDB8CF22A1C9877001BAF56 /* JSONParameterEncoder.swift in Sources */,
 				DCDB8CED2A1B8035001BAF56 /* ParameterEncoding.swift in Sources */,
+				DCDB8CF62A1C9A74001BAF56 /* Router.swift in Sources */,
 				DC7C4BA32A1253A500F991D4 /* HTTPTask.swift in Sources */,
 				DCDB8CEF2A1B8136001BAF56 /* URLParamterEncoder.swift in Sources */,
 				DC7C4B9F2A124C3A00F991D4 /* EndPointType.swift in Sources */,
