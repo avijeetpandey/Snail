@@ -7,6 +7,13 @@
 
 import Foundation
 
+// MARK: - NetworkEnvironment
+enum NetworkEnvironment {
+    case staging
+    case production
+    case preproduction
+}
+
 // MARK: - NetworkRouterCompletion typealias
 public typealias NetworkRouterCompletion = (_ data: Data?, _ response: URLResponse?, _ error: Error?) -> ()
 

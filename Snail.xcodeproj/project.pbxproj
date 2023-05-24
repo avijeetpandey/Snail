@@ -21,6 +21,7 @@
 		DCD112802A1E14B800D9BE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD1127E2A1E14B800D9BE1B /* Main.storyboard */; };
 		DCD112822A1E14BA00D9BE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD112812A1E14BA00D9BE1B /* Assets.xcassets */; };
 		DCD112852A1E14BA00D9BE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD112832A1E14BA00D9BE1B /* LaunchScreen.storyboard */; };
+		DCD1128B2A1E166400D9BE1B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1128A2A1E166400D9BE1B /* NetworkManager.swift */; };
 		DCDB8CED2A1B8035001BAF56 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB8CEC2A1B8035001BAF56 /* ParameterEncoding.swift */; };
 		DCDB8CEF2A1B8136001BAF56 /* URLParamterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB8CEE2A1B8136001BAF56 /* URLParamterEncoder.swift */; };
 		DCDB8CF22A1C9877001BAF56 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB8CF12A1C9877001BAF56 /* JSONParameterEncoder.swift */; };
@@ -57,6 +58,7 @@
 		DCD112812A1E14BA00D9BE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD112842A1E14BA00D9BE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCD112862A1E14BA00D9BE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD1128A2A1E166400D9BE1B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		DCDB8CEC2A1B8035001BAF56 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		DCDB8CEE2A1B8136001BAF56 /* URLParamterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParamterEncoder.swift; sourceTree = "<group>"; };
 		DCDB8CF12A1C9877001BAF56 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		DC7C4B9B2A1247D400F991D4 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				DCD1128A2A1E166400D9BE1B /* NetworkManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				DCDB8CED2A1B8035001BAF56 /* ParameterEncoding.swift in Sources */,
 				DCDB8CF62A1C9A74001BAF56 /* Router.swift in Sources */,
 				DC7C4BA32A1253A500F991D4 /* HTTPTask.swift in Sources */,
+				DCD1128B2A1E166400D9BE1B /* NetworkManager.swift in Sources */,
 				DCDB8CEF2A1B8136001BAF56 /* URLParamterEncoder.swift in Sources */,
 				DC7C4B9F2A124C3A00F991D4 /* EndPointType.swift in Sources */,
 				DC7C4BA52A1253E600F991D4 /* HTTPHeaders.swift in Sources */,
